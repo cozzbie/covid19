@@ -51,9 +51,9 @@ const collated = async () => {
 	console.log('\n\n-------------------INFECTED COUNTRIES------------------------');
 	console.log(infected.join(', '));
 
-	console.log('\n\n------------------UNINFECTED COUNTRIES TOTAL-------------------------');
+	console.log('\n\n---UNINFECTED COUNTRIES TOTAL---');
 	console.log(uninfected.length);
-	console.log('\n\n-------------------INFECTED CONTRIES TOTAL------------------------');
+	console.log('\n\n---INFECTED COUNTRIES TOTAL---');
 	console.log(infected.length);
 }
 
